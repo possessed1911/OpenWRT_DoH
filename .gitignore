@@ -1,0 +1,20 @@
+# Environment and credentials
+.env
+.env.local
+etc/adguard-rewrite.conf.local
+
+# Temporary / runtime state
+/tmp/
+*.hash
+*.sync.*
+*.pid
+*.lock
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.idea/
+.vscode/
