@@ -1,0 +1,4 @@
+#!/bin/sh
+if [ "$ACTION" = "ifup" ]; then
+    /etc/irq-rps-tune.sh
+fi
